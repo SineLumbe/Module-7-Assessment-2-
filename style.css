@@ -1,0 +1,184 @@
+.body-home{
+    background-image: url('images/Background\ 1.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-menu-item p{
+    border: 10px solid white;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    width: 50%;
+    margin-left: 350px;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+
+    background-color: tomato;
+    font-weight: 70px;
+    font-size: 30px;
+
+}
+
+#home{
+    margin-top: 100px;
+}
+
+#home-logo-img{
+    width: 100px;
+    margin-left: 30px;
+}
+
+/*=========OUTSIDE CODE=====*/
+
+.clothing{
+    width: 400px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.clothing img{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.clothing p{
+    margin-left: 30px;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(247, 151, 134);
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+h1{
+    margin-left: 40px;
+}
+
+
+/*================ORDER=============*/
+
+.Order-page img{
+    width: 40%;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.extras{
+    float: right;
+    margin-top: 10px;
+    margin-right: 120px;
+    
+}
+
+.btn-1{
+    font-size: 30px;
+    margin-top: 15px;
+    float: right;
+    border: 4px solid white;
+    margin-right: 400px;
+
+    background-color: black;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    color: white;
+}
+
+#fname{
+    width: 250px;
+    border: 3px solid white;
+    float: right;
+}
+
+form{
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+label{
+    margin-left: 35px;
+}
+
+#subject{
+    margin-left: 35px;
+}
+
+
+/*===========RESPONSIVE=========*/
+
+@media only screen and (min-width: 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+
+    #drinks{
+        width: 60%;
+        margin: auto;
+    }
+
+    #desserts{
+        width: 60%;
+        margin: auto;
+    }
+
+    #chicken{
+        width: 60%;
+        margin: auto;
+    }
+
+    #beef{
+        width: 60%;
+        margin: auto;
+    }
+
+    #pork{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    #chicken{
+        width: 60%;
+        margin: auto;
+    }
+
+    #drinks{
+        width: 60%;
+        margin: auto;
+    }
+
+    #desserts{
+        width: 60%;
+        margin: auto;
+    }
+
+    #beef{
+        width: 60%;
+        margin: auto;
+    }
+
+    #pork{
+        width: 60%;
+        margin: auto;
+    }
+}
+
